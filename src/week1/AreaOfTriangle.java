@@ -1,4 +1,6 @@
 package week1;
+
+//program to find area of triangle
 import java.util.Scanner;
 public class AreaOfTriangle {
 	int base,height;
