@@ -5,20 +5,30 @@ public class Student {
 	//Instance variables of Student class
 	private int rollNumber;
 	private int marks1,marks2,marks3;
-	private static int seriesNumber;
+	private static int seriesNumber=5000;
 	private String name ,course;
+	private String enrollmentNo;
 	
 	public Student(String name ,String course,int marks1,int marks2,int marks3)
 	{
 		this.setName(name);
 		this.setCourse(course);
 		this.setRollNumber();
+		this.setEnrollmentNo();
 		this.setMarks1(marks1);
 		this.setMarks2(marks2);
 		this.setMarks3(marks3);
 	}
 	
 	//setter getter methods
+	public void setEnrollmentNo() 
+	{
+		enrollmentNo = course +"@"+rollNumber;
+	}
+	public String getEnrollmentNumber()
+	{
+		return enrollmentNo;
+	}
 	public void setRollNumber()
 	{
 		this.rollNumber =++seriesNumber;;
@@ -77,8 +87,8 @@ public class Student {
 	
 	public String toString()//toString method it will return the student details
 	{
-		return "Students details are :\nName - "+this.name+"\n"+"Roll Number - "+this.rollNumber+"\n"+"Course - "+this.course
-				+"\n"+"Total Marks - "+ this.calculateTotal()+"\n"+"Grade - "+this.calculateGrade();
+		return "Students [Name - "+this.name+" , "+"Roll Number - "+this.rollNumber+" , "+"Course - "+this.course+" , "+"EnrollmentNo - "
+				+this.enrollmentNo+" , "+"Total Marks - "+ this.calculateTotal()+" , "+"Grade - "+this.calculateGrade()+"]";
 	}
 	
 	public int calculateTotal()
