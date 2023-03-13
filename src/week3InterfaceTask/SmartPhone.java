@@ -1,6 +1,8 @@
 package week3InterfaceTask;
 import java.util.Scanner;
 
+
+//SmartPhone class that extends Phone class and implements camera and MusicPlayer interface
 public class SmartPhone extends Phone implements Camera ,MusicPlayer 
 {
 
