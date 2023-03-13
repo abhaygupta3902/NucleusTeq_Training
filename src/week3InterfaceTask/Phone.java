@@ -1,5 +1,6 @@
 package week3InterfaceTask;
 
+//phone class that contains call() and sms() method
 public class Phone {
 	
 	public void call()
