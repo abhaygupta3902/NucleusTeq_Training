@@ -19,3 +19,8 @@ This package contains the class assignment
 week3 branch --->
 
 week3 branch contains week3InheritanceTask ,week3AstractClassTask ,week3InterfaceTask and week3MethodOverloading task
+
+14-03-2023 --->
+created week 4 branch
+
+week 4 branch contains week4Generics Task and week4Exception handling tast
