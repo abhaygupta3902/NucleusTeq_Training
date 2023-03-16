@@ -24,3 +24,8 @@ week3 branch contains week3InheritanceTask ,week3AstractClassTask ,week3Interfac
 created week 4 branch
 
 week 4 branch contains week4Generics Task and week4Exception handling tast
+
+15-03-23 --->
+
+1) did programs of File IO - FileInputStream ,FileOutputStream,FileReader ,FileWriter
+2) Employee Management System -- added method to add employee and read employee 
