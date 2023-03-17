@@ -43,10 +43,12 @@ public class Test {
 		System.out.println(e);
 		
 		try {
-			FileWriter fw = new FileWriter(filename ,true);
-			fw.append(e.toString());
+			//FileWriter fw = new FileWriter(filename ,true);
+			//fw.append(e.toString());
 			
-			fw.close();
+			//fw.close();
+			FileReader fr = new FileReader(filename);
+			fr.read();
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
