@@ -29,3 +29,9 @@ week 4 branch contains week4Generics Task and week4Exception handling tast
 
 1) did programs of File IO - FileInputStream ,FileOutputStream,FileReader ,FileWriter
 2) Employee Management System -- added method to add employee and read employee 
+
+16-03-23 ---->
+
+1) created a separate class EmployeeServices that contains all the employee service methods
+2) added employee instances salary and post
+3) added method to create new file and get all employee details
