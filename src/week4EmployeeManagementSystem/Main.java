@@ -1,5 +1,6 @@
 package week4EmployeeManagementSystem;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Main {
 	
@@ -16,10 +17,11 @@ public class Main {
 			System.out.println("\nEnter following choices to use a service:");
 			System.out.println("Enter 1 to create new file");
 			System.out.println("Enter 2 to add employee details");
-			System.out.println("Enter 3 to read employee details");
+			System.out.println("Enter 3 to read employee by search key");
 			System.out.println("Enter 4 to read all employees");
-			System.out.println("Enter following choices to use a service:");
-			System.out.println("Enter following choices to use a service:");
+			System.out.println("Enter 5 to read employee by id:");
+			System.out.println("Enter 6 to update employee:");
+			System.out.println("Enter 7 to delete employee:");
 			System.out.println("Enter 0 to exit:");
 			int choice = sc.nextInt();
 			switch(choice)
@@ -39,6 +41,15 @@ public class Main {
 					break;
 				case 4:
 					obj.getAllEmployee();
+					break;
+				case 5:
+					obj.getEmployeeById(new ArrayList<String>(), sc);
+					break;
+				case 6:
+					obj.updateEmployee(new ArrayList<String>(), sc);
+					break;
+				case 7:
+					obj.deleteEmployeeById(new ArrayList<String>(), sc);
 					break;
 				default:
 					System.out.println("invalid input");
