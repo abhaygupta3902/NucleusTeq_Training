@@ -9,6 +9,7 @@ public class Employee {
 	private String post;
 	private double salary;
 	
+	
 	public Employee(int id ,String name , String address ,double salary, String post,String  phoneNo)
 	{
 		this.id = id;
