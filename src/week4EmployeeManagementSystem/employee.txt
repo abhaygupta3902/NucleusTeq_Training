@@ -1,6 +1,3 @@
-Job id ,Name ,Address , PhoneNo
-100,abhay,gupta,123456789
-101,ashish,santoshi nagar,9876543210
-102,indrajeet,Rajim,6543217890
-103,abhay,basant bihar,30000.0,,123456789
-100,abhay,basant bihar,30000.0,software engineer,6263476111
+Job_id,Name,Address,Salary,Post,PhoneNo
+1,Abhay Kumar Gupta,Basant Bihar,30000.0,Software Engineer,6263476111
+2,ashish sahu,santoshi nagar,10000.0,software engineer,1234567890
