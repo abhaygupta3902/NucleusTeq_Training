@@ -35,3 +35,14 @@ week 4 branch contains week4Generics Task and week4Exception handling tast
 1) created a separate class EmployeeServices that contains all the employee service methods
 2) added employee instances salary and post
 3) added method to create new file and get all employee details
+
+17-03-23 --->
+1) moved employee services methods to separate class
+2) practiced file io
+
+21-03-23 -->
+1) added upadate and delete employee methods in employee management system
+
+22-03-23 -->
+1)using hashmap object to create ,read and update employee details in employee management system
+ 
