@@ -1,3 +1,2 @@
-Job_id,Name,Address,Salary,Post,PhoneNo
-1,Abhay Kumar Gupta,Basant Bihar,30000.0,Software Engineer,6263476111
-2,ashish sahu,santoshi nagar,10000.0,software engineer,1234567890
+{Salary=40000.00, Address=Basant Bihar, PhoneNo=6263476111, Post=Software Engineer, Job_Id=100, Name=Abhay Kumar Gupta}
+{Salary=30000.00, Address=Santoshi Nagar, PhoneNo=9685260155, Post=Software Engineer, Job_Id=101, Name=Ashish Kumar Sahu}
