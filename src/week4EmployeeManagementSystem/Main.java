@@ -1,6 +1,7 @@
 package week4EmployeeManagementSystem;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Scanner;
 public class Main {
 	
@@ -39,18 +40,18 @@ public class Main {
 				case 3:
 					obj.getEmployee(sc);
 					break;
-				case 4:
+				/*case 4:
 					obj.getAllEmployee();
 					break;
 				case 5:
 					obj.getEmployeeById(new ArrayList<String>(), sc);
-					break;
+					break;*/
 				case 6:
-					obj.updateEmployee(new ArrayList<String>(), sc);
+					obj.updateEmployee(new ArrayList<HashMap<String,String>>(), sc);
 					break;
-				case 7:
+				/*case 7:
 					obj.deleteEmployeeById(new ArrayList<String>(), sc);
-					break;
+					break;*/
 				default:
 					System.out.println("invalid input");
 			}
