@@ -1,3 +1,2 @@
-[week4FileIO.Employee@1c4af82c, week4FileIO.Employee@379619aa]
-[week4FileIO.Employee@1c4af82c, week4FileIO.Employee@379619aa]
-[100,Abhay,Basant Bihar,123456
+{Address=Basant Bihar, PhoneNo=123456, Job_id=100, Name=Abhay}
+{Address=Santoshi Nagar, PhoneNo=123456, Job_id=101, Name=Ashish}
