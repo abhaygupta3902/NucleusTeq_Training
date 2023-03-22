@@ -2,15 +2,15 @@ package week4EmployeeManagementSystem;
 
 public class Employee {
 	
-	private int id;
+	private String id;
 	private String name;
 	private String address;
 	private String  phoneNo;
 	private String post;
-	private double salary;
+	private String salary;
 	
 	
-	public Employee(int id ,String name , String address ,double salary, String post,String  phoneNo)
+	public Employee(String id ,String name , String address ,String salary, String post,String  phoneNo)
 	{
 		this.id = id;
 		this.name = name;
@@ -23,5 +23,54 @@ public class Employee {
 	public String toString()
 	{
 		return this.id+","+this.name+","+this.address+","+this.salary +","+this.post+","+this.phoneNo;
+	}
+	
+	//Setter getter methods
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public String getPhoneNo() {
+		return phoneNo;
+	}
+
+	public void setPhoneNo(String phoneNo) {
+		this.phoneNo = phoneNo;
+	}
+
+	public String getPost() {
+		return post;
+	}
+
+	public void setPost(String post) {
+		this.post = post;
+	}
+
+	public String getSalary() {
+		return salary;
+	}
+
+	public void setSalary(String salary) {
+		this.salary = salary;
 	}
 }
