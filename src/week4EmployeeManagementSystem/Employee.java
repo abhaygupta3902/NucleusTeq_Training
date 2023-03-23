@@ -20,9 +20,11 @@ public class Employee {
 		this.post =post;
 	}
 	
-	public String toString()
+	public String toString() //return HashMap Object String
 	{
-		return this.id+","+this.name+","+this.address+","+this.salary +","+this.post+","+this.phoneNo;
+		//return this.id+","+this.name+","+this.address+","+this.salary +","+this.post+","+this.phoneNo;
+		return "{Job_id ="+this.id+","+"Name="+this.name+","+"Address="+this.address+","+"Salary="+this.salary+","
+				+"Post="+this.post+","+"PhoneNo="+this.phoneNo+"}";
 	}
 	
 	//Setter getter methods
