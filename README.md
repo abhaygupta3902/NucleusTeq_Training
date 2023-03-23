@@ -45,4 +45,12 @@ week 4 branch contains week4Generics Task and week4Exception handling tast
 
 22-03-23 -->
 1)using hashmap object to create ,read and update employee details in employee management system
+
+
+23-03-23 --->
+1) added delete employee method in employee management system
+2) added generateId() that will generate the id automatically
+3) the toString() of Employee class return hashmap object String
+4) added comments on the methods
+
  
