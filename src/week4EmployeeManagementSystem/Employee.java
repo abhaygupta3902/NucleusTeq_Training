@@ -23,7 +23,7 @@ public class Employee {
 	public String toString() //return HashMap Object String
 	{
 		//return this.id+","+this.name+","+this.address+","+this.salary +","+this.post+","+this.phoneNo;
-		return "{Job_id ="+this.id+","+"Name="+this.name+","+"Address="+this.address+","+"Salary="+this.salary+","
+		return "{empId ="+this.id+","+"Name="+this.name+","+"Address="+this.address+","+"Salary="+this.salary+","
 				+"Post="+this.post+","+"PhoneNo="+this.phoneNo+"}";
 	}
 	

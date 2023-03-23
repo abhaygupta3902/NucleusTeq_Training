@@ -31,7 +31,7 @@ public class EmployeeServices {
 			{
 				map = (HashMap<String, String>) convertStringToHashMap(line);
 				
-				lastId = Integer.parseInt(map.get("Job_id")); //getting the last assigned Job_id
+				lastId = Integer.parseInt(map.get("empId")); //getting the last assigned Job_id
 				
 				//count++;
 			}
@@ -68,7 +68,7 @@ public class EmployeeServices {
 	private String chooseKey(Scanner sc) //method to choose the key of which the user want to update the value 
 	{
 		System.out.println("Choose the field to update");
-		System.out.println("Enter 1 to update job id");
+		System.out.println("Enter 1 to update empId");
 		System.out.println("Enter 2 to update Name");
 		System.out.println("Enter 3 to update Address");
 		System.out.println("Enter 4 to update Salary");
@@ -79,7 +79,7 @@ public class EmployeeServices {
 		switch(sc.nextLine())
 		{
 			case "1":
-				value= "Job_Id";
+				value= "empId";
 				break;
 			case "2":
 				value= "Name";
@@ -138,12 +138,6 @@ public class EmployeeServices {
 		try {
 			if(empFile.createNewFile()==true)//if file exist emplFile.createNewFile() will return false 
 			{
-				/*FileWriter fw = new FileWriter(filename ,true);
-				
-				fw.append("Job_id,"+"Name,"+"Address,"+"Salary,"+"Post,"+"PhoneNo\n");//appending data to file
-				
-				fw.close();//closing the file*/
-				
 				System.out.println("New File Created");
 			}
 			else
@@ -236,7 +230,7 @@ public class EmployeeServices {
 		{
 			BufferedReader reader = new BufferedReader(new FileReader(filename)); //creating object to read file
 			sc.nextLine(); 
-			System.out.println("Enter job id");
+			System.out.println("Enter empId");
 			String id = sc.nextLine(); //taking job_id
 			String line;
 			boolean notFound = true;
@@ -248,7 +242,7 @@ public class EmployeeServices {
 			
 			for(int i=0;i<arrayList.size();i++) //traversing through arrayList
 			{
-				if(arrayList.get(i).get("Job_id").equals(id))//checking if contains the job id 
+				if(arrayList.get(i).get("empId").equals(id))//checking if contains the job id 
 				{
 					notFound = false;
 					String key = chooseKey(sc);//choosing the key 
@@ -270,7 +264,7 @@ public class EmployeeServices {
 			
 			if(notFound) //logic to show employee not found
 			{
-				System.out.println("Employee not found-Invalid Job_id");
+				System.out.println("Employee not found-Invalid empId");
 			}
 			
 			reader.close(); //closing the file
@@ -303,7 +297,7 @@ public class EmployeeServices {
 		boolean notFound = true;
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(filename));//creating object to read the file
-			System.out.println("Enter job id");
+			System.out.println("Enter empId");
 			sc.nextLine();
 			String id = sc.nextLine(); //taking input for job_id
 			String line;
@@ -314,7 +308,7 @@ public class EmployeeServices {
 			}
 			for(int i=0;i<arrayList.size();i++)//traversing through arrayList
 			{
-				if(arrayList.get(i).get("Job_id").equals(id))
+				if(arrayList.get(i).get("empId").equals(id))
 				{
 					System.out.println("Deleted employee :"+arrayList.get(i));
 					arrayList.remove(i);//deleting the employee if Job_id gets matched
@@ -324,7 +318,7 @@ public class EmployeeServices {
 			}
 			if(notFound)
 			{
-				System.out.println("Employee not found-Invalid Job_id");
+				System.out.println("Employee not found-Invalid empId");
 			}
 			
 			reader.close(); //closing the file
