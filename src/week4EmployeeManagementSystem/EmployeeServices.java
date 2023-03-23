@@ -248,7 +248,7 @@ public class EmployeeServices {
 			
 			for(int i=0;i<arrayList.size();i++) //traversing through arrayList
 			{
-				if(arrayList.get(i).containsValue(id))//checking if contains the job id 
+				if(arrayList.get(i).get("Job_id").equals(id))//checking if contains the job id 
 				{
 					notFound = false;
 					String key = chooseKey(sc);//choosing the key 
@@ -270,14 +270,10 @@ public class EmployeeServices {
 			
 			if(notFound) //logic to show employee not found
 			{
-				System.out.println("Employee not found");
+				System.out.println("Employee not found-Invalid Job_id");
 			}
 			
 			reader.close(); //closing the file
-		}
-		catch(IndexOutOfBoundsException e)
-		{
-			System.out.println("Please enter valid Job id");
 		}
 		catch(IOException e)
 		{
@@ -318,7 +314,7 @@ public class EmployeeServices {
 			}
 			for(int i=0;i<arrayList.size();i++)//traversing through arrayList
 			{
-				if(arrayList.get(i).containsValue(id))
+				if(arrayList.get(i).get("Job_id").equals(id))
 				{
 					System.out.println("Deleted employee :"+arrayList.get(i));
 					arrayList.remove(i);//deleting the employee if Job_id gets matched
@@ -328,7 +324,7 @@ public class EmployeeServices {
 			}
 			if(notFound)
 			{
-				System.out.println("Employee not found");
+				System.out.println("Employee not found-Invalid Job_id");
 			}
 			
 			reader.close(); //closing the file
