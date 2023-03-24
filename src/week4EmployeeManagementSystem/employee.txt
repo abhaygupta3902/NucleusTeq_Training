@@ -1,3 +1,10 @@
 {empId=100, Salary=30000.00, Address=Basant Bihar, PhoneNo=62636476111, Post=SOftware Engineer, Name=Abhay Kumar Gupta}
 {empId=101, Salary=10000, Address=santoshi nagar, PhoneNo=1234567890, Post=software engineer, Name=Ashish}
-{empId=102, Salary=20000, Address=santoshi nagar, PhoneNo=123456789, Post=HR, Name=Indrajeet}
+{empId=102, Salary=20000, Address=santoshi nagar, PhoneNo=9087654321, Post=HR, Name=Indrajeet}
+{empId=103, Salary=20000.00, Address=Sarora, PhoneNo=6543217890, Post=Hr, Name=Saddam Rja Ansari}
+{empId=104, Salary=35000.00, Address=Naya Raipur, PhoneNo=9876543210, Post=Project Manager, Name=Mahendra}
+{empId=106, Salary=20000.00, Address=Sarora, PhoneNo=7654321890, Post=Hr, Name=Mukesh Sen}
+{empId=107, Salary=25000.00, Address=Gol Bazaar, PhoneNo=6543210987, Post=Software Engineer, Name=Vivek Yadav}
+{empId=108, Salary=25000.00, Address=Shivanand Nagar, PhoneNo=7654321098, Post=Software Engineer, Name=Bhavesh Dhore}
+{empId=109, Salary=40000.00, Address=Bhanpuri, PhoneNo=8765432109, Post=Project Manager, Name=Debasish}
+{empId=110, Salary=20000.00, Address=Sarora, PhoneNo=9876543211, Post=Junior Software Engineer, Name=Avinash Sahu}
