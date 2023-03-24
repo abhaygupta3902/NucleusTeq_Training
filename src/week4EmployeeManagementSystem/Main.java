@@ -8,7 +8,7 @@ public class Main {
 	//public static String filename = "D:\\softwares\\eclipse\\workspace\\NucleusTeqTraining\\src\\week4EmployeeManagementSystem\\employee.txt";
 	
 	//employee services method 
-	public static void services()
+	public void services()
 	{
 		EmployeeServices obj = new EmployeeServices();
 		Scanner sc = new Scanner(System.in);
@@ -61,7 +61,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		services(); 
+		new Main().services(); 
 	}
 
 }
