@@ -68,19 +68,18 @@ public class EmployeeServices {
 	private String chooseKey(Scanner sc) //method to choose the key of which the user want to update the value 
 	{
 		System.out.println("Choose the field to update");
-		System.out.println("Enter 1 to update empId");
+		//System.out.println("Enter 1 to update empId");
 		System.out.println("Enter 2 to update Name");
 		System.out.println("Enter 3 to update Address");
 		System.out.println("Enter 4 to update Salary");
 		System.out.println("Enter 5 to update Post");
 		System.out.println("Enter 6 to update Phone Number");
 		String value = null;
-		//System.out.println("Choose the field to update");
 		switch(sc.nextLine())
 		{
-			case "1":
+			/*case "1":
 				value= "empId";
-				break;
+				break;*/
 			case "2":
 				value= "Name";
 				break;
