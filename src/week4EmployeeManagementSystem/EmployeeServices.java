@@ -31,7 +31,7 @@ public class EmployeeServices {
 			{
 				map = (HashMap<String, String>) convertStringToHashMap(line);
 				
-				lastId = Integer.parseInt(map.get("empId")); //getting the last assigned Job_id
+				lastId = Integer.parseInt(map.get("empId")); //getting the last assigned empId
 				
 				//count++;
 			}
