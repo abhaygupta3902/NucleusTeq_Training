@@ -8,3 +8,4 @@
 {empId=108, Salary=25000.00, Address=Shivanand Nagar, PhoneNo=7654321098, Post=Software Engineer, Name=Bhavesh Dhore}
 {empId=109, Salary=40000.00, Address=Bhanpuri, PhoneNo=8765432109, Post=Project Manager, Name=Debasish}
 {empId=110, Salary=20000.00, Address=Sarora, PhoneNo=9876543211, Post=Junior Software Engineer, Name=Avinash Sahu}
+{empId =111,Name=hardik,Address=raipur,Salary=30000,Post=software engineer,PhoneNo=12345567}
