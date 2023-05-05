@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    border-radius: 2%;
+    background-color: white;
+    height:80vh;
+    width:50vw;
+}
+
+.horizontal-and-vertical-centering {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+#div1{
+    background-color: coral;
+    height:100vh;
+}
+
+#form1
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: space-between; */
+    column-gap: 5vmax;
+    margin: 5%;
+}
+
+h3{
+    margin: 2%;
+    padding: 1%; 
+    border-bottom: thick solid coral;
+}
+
+label,input{
+    margin: 1%;
+    padding: 1%;
+}
+input{
+    
+    width: auto;
+    padding-left: 4%;
+    height: 35px;
+    border-radius: 8px;
+    border-color: coral;
+    outline: coral;
+    
+}
+/* input[type=text]:focus {
+    border: 3px solid #555;
+  } */
+input:focus{
+   
+    border-color: coral;
+    border: 3px solid coral;
+}
+input[type="radio"] {
+    accent-color:  coral;
+    background-color: coral;
+    appearance: checkbox;
+    
+
+ }
+ 
+
+.form-item{
+    display: grid;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.full-width-column
+{
+    grid-column: 1/3;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Button
+{
+    width: 100%;
+    background-color: coral;
+    color: white;
+    font-size: medium;
+    border-radius: 20px;
+}
